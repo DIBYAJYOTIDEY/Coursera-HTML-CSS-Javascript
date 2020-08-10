@@ -8,6 +8,7 @@
 	border-radius: 0;
 	border: 0;
 	margin-bottom:-15px;
+	border-bottom:2px solid black;
 }
 #header-nav .navbar-brand a:hover, #header-nav .navbar-brand a:focus{
 	text-decoration: none;
@@ -42,7 +43,7 @@
 	width: 100%;
 }
 #collapsable-nav ul{
-	border: 2px solid black;
+	border-bottom: 2px solid black;
 	font-size: 1.45em;
 }
 

@@ -1,0 +1,90 @@
+*{
+	font-family:Helvetica, Ariial, Sans-serif;
+	color: black;
+}
+/********************navbar*****************/
+#header-nav{
+	background-color: rgba(0,0,0,0.3);
+	border-radius: 0;
+	border: 0;
+	margin-bottom:-15px;
+}
+#header-nav .navbar-brand a:hover, #header-nav .navbar-brand a:focus{
+	text-decoration: none;
+}
+.navbar-default .navbar-brand{
+	font-size: 35px;
+	margin-top:5px;
+	margin-bottom:5px;
+	color: black;
+	font-weight: bold;
+}
+.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+    margin-left: 20px;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+	border: 2px solid black;
+}
+.navbar-nav>li>a{
+	margin:0;
+	background-color: white;
+	border-bottom: 1.5px solid black;
+	color: black;
+	display: block;
+	text-align:center;
+}
+.navbar-nav>li>a:hover , .navbar-nav>li>a:focus{
+	text-decoation: none;
+	background-color: #FFFFAA;
+}
+
+#collapsable-nav{
+	width: 100%;
+}
+#collapsable-nav ul{
+	border: 2px solid black;
+	font-size: 1.45em;
+}
+
+/******************body styles**************/
+h1{
+	padding: 5px;
+	margin-top:30px;
+	font-weight:bold;
+}
+.row {
+	margin-bottom: 15px;
+}
+
+.row section{
+	margin: 2px;
+	background-color: rgba(0,0,0,0.3);
+	border: 1px black;
+}
+section h3{
+	text-align: center;
+	font-size: 1.5em;
+	font-weight: bold;
+	padding: 5px;
+}
+
+section p{
+	margin: 5px;
+	padding: 10px;
+}
+
+p a:hover{
+	text-decoration: none;
+}
+/*****************media queries for xs*********/
+@media(max-width: 576px){
+	.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+    	margin-left: 15px;
+	}
+	.row section{
+		padding-left: 10px;
+		padding-right: 10px;
+		margin-right: 20px;
+		margin-left: 20px;
+	}
+}
